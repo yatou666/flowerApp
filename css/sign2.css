@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 561407 */
+  src: url('https://at.alicdn.com/t/font_561407_n5xzl030zmih33di.eot');
+  src: url('https://at.alicdn.com/t/font_561407_n5xzl030zmih33di.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561407_n5xzl030zmih33di.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561407_n5xzl030zmih33di.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561407_n5xzl030zmih33di.svg#iconfont') format('svg');
+}
+
+.box{
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5;
+}
+body{
+	background-color: #F5F5F5;
+}
+h2{
+	width: 100%;
+	height: 1.15rem;
+	background-color: #D72C25;
+	font-size: 0.46rem;
+	line-height: 1.15rem;
+	text-align: center;
+	color:white;
+	position: relative;
+}
+h2 span{
+	font-family: 'iconfont';
+	color: white;
+	position: absolute;
+	left: 0.21rem;
+}
+.content{
+	width: 100%;
+	padding-left: 0.21rem;
+	padding-right: 0.21rem;
+
+}
+.chooselogin{
+	width: 100%;
+	height: 0.9rem;
+	border: 1px solid #9A4542;
+	margin-top: 0.45rem;
+	text-align: center;
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	border-radius: 0.01rem;
+}
+.pwdlogin{
+	width: 50%;
+	height: 0.9rem;
+	background-color: #FE6C6C;
+	float: left;
+}
+.codelogin{
+	width: 50%;
+	height: 0.9rem;
+	background-color: white;
+	float: left;
+	margin-bottom: 0.39rem;
+}
+
+input{
+	width: 100%;
+	height: 1.10rem;
+	border-radius: 0.01rem;
+	border-color: #CCCCCC;
+}
+input::-webkit-input-placeholder {
+	padding-left: 0.1rem;
+	font-size: 0.3rem;
+}
+.gou{
+	width: 100%;
+	height: 0.45rem;
+	margin-top: 0.3rem;
+	/*margin-bottom: 0.32rem;*/
+	
+}
+.quan{
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	background-color: #F15352;
+	float: left;
+
+}
+.gou p{
+	font-size: 0.3rem;
+	margin-left: 0.62rem;
+}
+#login{
+	width: 100%;
+	height: 1.15rem;
+	background-color: #D72C25;
+	font-size: 0.46rem;
+	line-height: 1.15rem;
+	text-align: center;
+	color:white;
+}
+.bottom{
+
+	font-size: 0.3rem;
+
+	height: 1.2rem;
+	line-height: 1.2rem;
+	margin-top: 1.5rem;
+}
+.item1{
+	float: right;
+}
+.item2{
+	float: left;
+}
+.huoqu{
+	width: 100%;
+	height: 1.30rem;
+	margin-top: .3rem;
+
+}
+.item3, .item4{
+	width: 5.02rem;
+	height: 100%;
+	float: left;
+}
+.item3{
+	margin-right: 0.3rem;
+}
+.item4{
+	background-color: #DC4F45;
+	font-size: 0.3rem;
+	color: white;
+	letter-spacing: 0.02rem;
+}
+.bottom a{
+	color: #D72C25;
+}

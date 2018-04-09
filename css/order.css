@@ -1,0 +1,186 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 561407 */
+  src: url('https://at.alicdn.com/t/font_561407_sjfxo7n2pa9ejyvi.eot');
+  src: url('https://at.alicdn.com/t/font_561407_sjfxo7n2pa9ejyvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561407_sjfxo7n2pa9ejyvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561407_sjfxo7n2pa9ejyvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561407_sjfxo7n2pa9ejyvi.svg#iconfont') format('svg');
+}
+
+.box{
+	width: 100vw;
+	/*height: 100vh;*/
+	/*background-color: green;*/
+	position: relative;
+}
+.inner{
+	width: 100%;
+	height: 16.5rem;
+	overflow-y: scroll;
+	background-color: #FFFFFF;
+}
+h2{
+	width: 100%;
+	height: 1.15rem;
+	background-color: #D72C25;
+	font-size: 0.46rem;
+	line-height: 1.15rem;
+	text-align: center;
+	color:white;
+	position: relative;
+}
+h2 span{
+	font-family: 'iconfont';
+	color: white;
+	position: absolute;
+	right: 0.21rem;
+}
+.bottom{
+	width: 100%;
+	height: 1.60rem;
+	background-color:white;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #949294;
+	background-color: white;
+}
+
+.gomai{
+	width: 100%;
+	height: 1.62rem;
+	background-color: #FFFBFF;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+.mai1{
+	width:4.95rem;
+	height: 1.25rem;
+	background-color: #66CC66;
+	margin-right: 0.3rem;
+	float:left;
+	border-radius: 0.06rem;
+	margin-top: 0.185rem;
+	text-align: center;
+	line-height: 1.25rem;
+	font-size: 0.42rem;
+	color: white;
+	font-weight: 100;
+}
+.mai2{
+	margin-right: 0rem;
+	background-color: #DC4F45;
+}
+
+.bmitem{
+	width: 2.16rem;
+	height: 100%;
+	text-align:center;
+	float: left;
+	color:black;
+	
+}
+.icon{
+	height: 0.72rem;
+	/*float: left;*/
+	line-height: 0.72rem;
+	font-size: 0.6em;
+	font-family: 'iconfont';
+	margin-top: 0.17rem;
+	text-align: center;
+}
+.wenzi{
+	font-size: 0.31rem;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.sousuo{
+	width: 100%;
+	height: 1.15rem;
+	background-color: #ECEBE6;
+	padding-left: 0.15rem;
+	padding-top: 0.155rem;
+	padding-right: 0.15rem;
+}
+.zixun{
+	width: 3.16rem;
+	height: 0.84rem;
+	background-color: #66CC66;
+	border-radius: 0.04rem;
+	text-align: center;
+	line-height: 0.84rem;
+	float: left;
+	font-size: 0.38rem;
+	color: white;
+}
+.sousuo input{
+	width: 7.16rem;
+	height: 0.84rem;
+	float: right;
+	border: none;
+}
+.ordercontent{
+	height: 2.76rem;
+	width: 100%;
+	background-color: white;
+	padding-top:0.3rem;
+	padding-bottom: 0.27rem;
+	padding-left: 0.21rem;
+	padding-right: 0.21rem;
+	border-bottom: 0.01rem solid #DDDDDD;
+	position: relative;
+}
+.huaimg{
+	width: 2.08rem;
+	height: 2.08rem;
+	float: left;
+	border: 0.01rem solid #9A4542;
+}
+.huaimg img{
+	margin-top: 0.03rem;
+}
+.ordermsg{
+	/*width: 8.67rem;*/
+	padding-left: 0.18rem;
+	float: left;
+	height: .55rem;
+	font-size: 0.36rem;
+	line-height: 0.55rem;
+}
+.price{
+	color: #D72C25;
+}
+.del{
+	width: 2rem;
+	height: 0.87rem;
+	border-radius: 0.02rem;
+	background-color: #66CC66;
+	text-align: center;
+	line-height: 0.87rem;
+	font-size: 0.37rem;
+	color: white;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0.21rem;
+	margin: auto;
+
+}
+.money{
+	width: 100%;
+	height: 1.20rem;
+	background-color: #ECEBE6;
+}
+.orders{
+	width: 100%;
+	height: 12.5rem;
+}
+.money p{
+	padding-right: 0.3rem;
+	float: right;
+	font-size: 0.38rem;
+	line-height: 1.2rem;
+}
+.money p i{
+	color: #DC4F45;
+}
