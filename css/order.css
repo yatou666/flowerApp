@@ -118,6 +118,15 @@ h2 span{
 	height: 0.84rem;
 	float: right;
 	border: none;
+	border-radius: 0.02rem;
+	padding-left: 0.3rem;
+	padding-top: 0.05rem;
+	font-size: 0.38rem;
+}
+.sousuo input::-webkit-input-placeholder { 
+
+ 	font-size: 0.38rem;
+  
 }
 .ordercontent{
 	height: 2.76rem;
